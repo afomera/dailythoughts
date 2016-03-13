@@ -45,3 +45,8 @@ group :development do
   gem 'spring'
 end
 
+# Bootstrap for front-end
+gem 'bootstrap-sass', '~> 3.3.6'
+
+# Font Awesome for icons
+gem 'font-awesome-rails'
