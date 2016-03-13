@@ -15,3 +15,17 @@
 //= require turbolinks
 //= require bootstrap
 //= require_tree .
+
+$(document).ready(function() {
+  setTimeout(function() {
+    $(".alert-fade").fadeOut("slow", function() {
+      $(this).remove();
+    })
+  }, 4500 );
+});
+
+$(document).on('ready', function(event) {
+  // initialize persistent state
+  Turbolinks.enableProgressBar();
+//  Turbolinks.ProgressBar.enable();
+});
