@@ -13,8 +13,7 @@
  *= require_tree .
  *= require_self
  */
-
- @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
  $well-bg: #FFFFFF;
  $navbar-default-brand-color: #4ea1d3;
@@ -31,7 +30,7 @@
  }
 
  body {
-   font-family: "Roboto", sans-serif;
+   font-family: "Open Sans", sans-serif;
   }
 
   .navbar-brand {
