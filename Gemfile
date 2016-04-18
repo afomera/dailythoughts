@@ -45,3 +45,6 @@ group :development do
   gem 'binding_of_caller'
   gem 'quiet_assets'
 end
+
+# Add local time gem for nice time conversion
+gem 'local_time'
