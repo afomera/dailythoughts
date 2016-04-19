@@ -15,6 +15,7 @@
 //= require turbolinks
 //= require local_time
 //= require bootstrap
+//= require trix
 //= require_tree .
 
 $(document).ready(function() {

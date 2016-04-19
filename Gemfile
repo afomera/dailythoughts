@@ -48,3 +48,6 @@ end
 
 # Add local time gem for nice time conversion
 gem 'local_time'
+
+# trix wysiwyg editor
+gem 'trix'

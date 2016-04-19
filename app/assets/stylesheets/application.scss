@@ -23,6 +23,7 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+ @import "trix";
 
  html.turbolinks-progress-bar::before {
    background-color: red !important;
@@ -47,3 +48,7 @@
     padding: 0px 20px;
     text-transform: uppercase;
   }
+
+ trix-editor {
+   min-height: 100px;
+ }
