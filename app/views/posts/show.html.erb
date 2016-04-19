@@ -1,4 +1,4 @@
-<%= @post.body %>
+<%= htmlify @post.body %>
 <%= local_time @post.created_at %>
 
 <%= link_to "Edit", edit_post_path(@post) %>

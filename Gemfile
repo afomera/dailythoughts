@@ -51,3 +51,9 @@ gem 'local_time'
 
 # trix wysiwyg editor
 gem 'trix'
+
+# HTML Formatting of Content
+gem 'html-pipeline'
+gem 'github-markdown' # Markdown filter
+gem 'sanitize' # sanitize Filter
+gem 'rinku' # Autolink Filter

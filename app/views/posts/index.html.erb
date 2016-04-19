@@ -1,6 +1,6 @@
 <h1>Your posts</h1>
 <% @posts.each do |post| %>
-  <h3><%= post.id %>: <%= post.body %> </h3>
+  <h3><%= post.id %>: <%= htmlify post.body %> </h3>
   <%= local_time post.created_at %><br>
 <% end %>
 <%= link_to "new post", new_post_path %>
